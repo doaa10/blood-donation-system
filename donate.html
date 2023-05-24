@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloodology</title>
+    <!--======================= Main Template CSS file ============================= -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="shortcut icon" href="logo.png">
+
+</head>
+
+<body>
+    <section class="donate">
+        <h1 class="dtitle">Medical Blood Donation Consent Form</h1>
+        <form>
+            <div class="inputs">
+                <div class="in">
+                    <label for="name">Full Name</label><br>
+                    <input type="text">
+                </div>
+                <div class="in">
+                    <label for="date">Date Of Birth</label><br>
+                    <input type="date">
+                </div>
+                <div class="in">
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel">
+                </div>
+                <div class="in">
+                    <label for="email">Email Address</label><br>
+                    <input type="text">
+                </div>
+                <div class="in">
+                    <label for="blood">Blood Type</label><br>
+                    <select name="blood" id="blood">
+                        <option value="blood">A</option>
+                        <option value="blood">B</option>
+                        <option value="blood">AB</option>
+                        <option value="blood">O</option>
+                    </select>
+                </div>
+            </div>
+            <div class="questions">
+                <div class="q1">
+                    <p>Have You Donated Previously?</p>
+                    <input type="radio" name="option" value="Yes">
+                    <label for="option">Yes</label>
+                    <input type="radio" name="option" value="No">
+                    <label for="option">No</label>
+                </div>
+                <div class="q2">
+                    <p>In the last six months have you had any of the following? </p>
+                    <input type="checkbox" id="tattoo" name="tattoo">
+                    <label for="tattoo">Tattooing</label>
+                    <input type="checkbox" id="piercing" name="piercing">
+                    <label for="piercing">Piercing</label>
+                    <input type="checkbox" id="dental" name="dental">
+                    <label for="dental">Dental Extraction</label>
+                </div>
+            </div>
+            <div class="submit_btn">
+                <a href="submit.html">Submit</a>
+            </div>
+
+        </form>
+        
+        <img src="thankyou.png" alt="" class="thank_img">
+    </section>
+</body>
+
+</html>
