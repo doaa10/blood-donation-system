@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  a {
+  text-decoration: none;
+  color: #fff;
+}
+
+  
+  body {
+    background-image: url('../bc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: "Rubik", sans-serif;
+  }
+  .tit{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 50px;
+  }
+  .tit .light{
+    font-weight: 100;
+    opacity: .9;
+  }
+  .admincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+     background-color: rgba(112, 112, 112, 0.5);
+     padding: 40px 35px;
+    width: 50%;
+    position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    
+  }
+  
+  .logadmincont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #fff;
+    gap: 20px;
+  }
+  .logadmincont .txt h1{
+    font-size: 35px;
+    font-weight: 600;
+    opacity: .9;
+  }
+  .logadmincont .txt p{
+    font-size: 15px;
+    opacity: .9;
+  }
+   .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    
+  }
+  .inputs input{
+    width: 90%;
+    outline: none;
+    padding: 17px 20px;
+    border-radius: 15px;
+    border: none;
+  }
+  .btn button{
+    margin-top: 15px;
+    background-color: #111;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 40px;
+
+  }
